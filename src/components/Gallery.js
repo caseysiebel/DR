@@ -1,15 +1,15 @@
 import React from 'react';
 //import { Link } from 'react-router';
 
-import './style/header.scss';
+import './style/gallery.scss';
 
-class Header extends React.Component {
+class Gallery extends React.Component {
     render() {
         return (
-            <div className='header'>
+            <div className='gallery'>
             </div>
         );
     } 
 }
 
-export default Header;
+export default Gallery;

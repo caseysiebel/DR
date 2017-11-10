@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Tab from './Tab';
+
 import './style/nav.scss';
 
 import { Link } from 'react-router';
@@ -8,10 +10,10 @@ class Nav extends React.Component {
     render() {
         return (
             <div className='nav'>
-                <Link to='/story'>Our Story</Link>
-                <Link to='/music'>Music</Link>
-                <Link to='/events'>Upcoming Events</Link>
-                <Link to='/contact'>Get In Touch</Link>
+                <Tab route='story' display='Our Story' />
+                <Tab route='music' display='Music' />
+                <Tab route='events' display='Upcoming Events' />
+                <Tab route='contact' display='Get In Touch' />
             </div>
         );
     } 

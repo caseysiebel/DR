@@ -7,23 +7,19 @@ import Nav from './Nav';
 
 import Header from './Header';
 import Story from './Story';
+import Gallery from './Gallery';
+import Music from './Music';
 
 import './style/app.scss';
 
-const routes = [
-    <Route exact path='/' component={Header}/>,
-    <Route path='/story' component={Story}/>
-]; 
 class App extends React.Component {
     render() {
         return (
             <div className='app'>
+                <Header />
                 <Nav />
-                <Router
-                    history={browserHistory}
-                    routes={routes}
-                    render={applyRouterMiddleware(useScroll())}
-                />
+                <Story />
+                <Music />
             </div>
         );
     }
