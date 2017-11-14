@@ -1,5 +1,9 @@
 .header {
-    background: url('../../assets/background.jpg') no-repeat center ;
+    //background: url('../../assets/background.jpg') no-repeat center ;
     //background: url('../../assets/background.jpg') no-repeat center fixed;
-    height: 500px;
+    background: url('../../assets/waiting.jpg') center bottom -160px no-repeat;
+    height: 600px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 100px;
 }
