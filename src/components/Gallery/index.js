@@ -1,7 +1,7 @@
 import React from 'react';
 //import { Link } from 'react-router';
 
-import './style/gallery.scss';
+import './style.scss';
 
 class Gallery extends React.Component {
     render() {

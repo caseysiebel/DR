@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './style/tab.scss';
+import './style.scss';
 
 import { Link } from 'react-router';
 

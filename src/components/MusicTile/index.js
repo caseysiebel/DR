@@ -1,15 +1,15 @@
 import React from 'react';
 //import { Link } from 'react-router';
 
-import './style/header.scss';
+import './style.scss';
 
-class Header extends React.Component {
+class MusicTile extends React.Component {
     render() {
         return (
-            <div className='header'>
+            <div className='musicTile'>
             </div>
         );
     } 
 }
 
-export default Header;
+export default MusicTile;

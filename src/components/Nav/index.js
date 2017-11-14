@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Tab from './Tab';
+import Tab from '../Tab';
 
-import './style/nav.scss';
+import './style.scss';
 
 import { Link } from 'react-router';
 

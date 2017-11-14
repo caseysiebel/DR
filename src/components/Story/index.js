@@ -1,7 +1,7 @@
 import React from 'react';
 //import { Link } from 'react-router';
 
-import './style/story.scss';
+import './style.scss';
 
 class Story extends React.Component {
     render() {

@@ -1,9 +1,9 @@
 import React from 'react';
 //import { Link } from 'react-router';
 
-import './style/tiles.scss';
+import './style.scss';
 
-import MusicTile from './MusicTile';
+import MusicTile from '../MusicTile';
 
 class Tiles extends React.Component {
     render() {

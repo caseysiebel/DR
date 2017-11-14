@@ -3,14 +3,16 @@ import React from 'react';
 import { applyRouterMiddleware, browserHistory, Router, Route } from 'react-router';
 import { useScroll } from 'react-router-scroll';
 
-import Nav from './Nav';
+import Nav from '../Nav';
 
-import Header from './Header';
-import Story from './Story';
-import Gallery from './Gallery';
-import Music from './Music';
+import Header from '../Header';
+import Story from '../Story';
+import Gallery from '../Gallery';
+import Music from '../Music';
+import Events from '../Events';
 
-import './style/app.scss';
+
+import './style.scss';
 
 class App extends React.Component {
     render() {
@@ -20,6 +22,7 @@ class App extends React.Component {
                 <Nav />
                 <Story />
                 <Music />
+                <Events />
             </div>
         );
     }
