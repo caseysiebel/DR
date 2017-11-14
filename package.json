@@ -15,7 +15,7 @@
   "scripts": {
     "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "build": "webpack",
-    "start": "webpack"
+    "start": "npm run build && node server.js"
   },
   "author": "",
   "license": "ISC",
