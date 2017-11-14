@@ -8,7 +8,7 @@ module.exports = {
 	entry: path.join(__dirname, 'src/index.js'),
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name].bundle.js'
+        filename: 'bundle.js'
     },
     devtool: 'source-map',
 	module: {
@@ -56,25 +56,27 @@ module.exports = {
 		new HtmlWebpackPlugin({
 			template: path.join(__dirname, 'src', 'index.html'),
 			inject: 'body',
-			excludeChunks: ['about'],
+            //excludeChunks: ['about'],
 			filename: 'index.html'
 		}),
 		new HtmlWebpackPlugin({
 			template: path.join(__dirname, 'src', 'index.html'),
 			inject: 'body',
-			excludeChunks: ['home'],
+            //excludeChunks: ['home'],
 			filename: 'about.html'
 		}),
 		new webpack.HotModuleReplacementPlugin(),
 
+        /*
 		new webpack.optimize.CommonsChunkPlugin({
 			name: 'common'
 		}),
+        */
 
 		// new ETP('styles.css'),
 		new ETP({
-			filename: '[name].styles.css',
-			allChunks: true
+			filename: 'styles.css',
+            //allChunks: true
 		}),
     ]
 };
