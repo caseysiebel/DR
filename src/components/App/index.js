@@ -10,6 +10,7 @@ import Story from '../Story';
 import Gallery from '../Gallery';
 import Music from '../Music';
 import Events from '../Events';
+import Contact from '../Contact';
 
 
 import './style.scss';
@@ -23,6 +24,7 @@ class App extends React.Component {
                 <Story />
                 <Music />
                 <Events />
+                <Contact />
             </div>
         );
     }
