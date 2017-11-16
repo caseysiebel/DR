@@ -1,7 +1,5 @@
 import React from 'react'; 
 
-import { applyRouterMiddleware, browserHistory, Router, Route } from 'react-router';
-
 import Nav from '../Nav';
 
 import Header from '../Header';
