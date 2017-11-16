@@ -1,14 +1,17 @@
 .contact {
     background: url('../../assets/dust.jpg');
     height: 500px;
-    padding: 75px 250px;
+    padding: 75px 0;
     text-align: center;
     h1 {
         color: #fff;
         //text-transform: uppercase; 
     }
     form {
-        padding: 20px 20%;
+        text-align: center;
+        display: inline-block;
+        max-width: 700px;
+        //padding: 20px 20%;
         $fs: 18px;
         $pl: 20px;
         .name , .email {

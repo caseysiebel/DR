@@ -13,7 +13,7 @@ class Contact extends React.Component {
                     <div className='submit-row'>
                         <div>
                             <input name='captcha' type='checkbox' className='captcha' id='captcha' />
-                            <label for='captcha'>I am not a robot</label>
+                            <label htmlFor='captcha'>I am not a robot</label>
                         </div>
                         <button>Submit</button>
                     </div>
