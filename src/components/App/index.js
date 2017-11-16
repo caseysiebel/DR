@@ -20,8 +20,8 @@ class App extends React.Component {
                 <Nav />
                 <Story />
                 <Gallery />
-                <Music />
                 <Events />
+                <Music />
                 <Contact />
             </div>
         );
