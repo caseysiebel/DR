@@ -1,7 +1,8 @@
 .contact {
     background: url('../../assets/dust.jpg');
+    background-size: cover;
     height: 500px;
-    padding: 75px 0;
+    padding: 75px 5%;
     text-align: center;
     h1 {
         color: #fff;
@@ -11,6 +12,7 @@
         text-align: center;
         display: inline-block;
         max-width: 700px;
+        width: 100%;
         //padding: 20px 20%;
         $fs: 18px;
         $pl: 20px;
