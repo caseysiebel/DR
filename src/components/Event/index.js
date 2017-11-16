@@ -6,7 +6,9 @@ class Event extends React.Component {
     render() {
         return (
             <div className='event'>
-                <img className='flyer' />
+                <div className='flyer' >
+                    <img />
+                </div>
                 <div className='body'>
                     <h1>Name of Party</h1>
                     <p>Date of party</p>
