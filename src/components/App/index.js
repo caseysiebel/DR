@@ -1,7 +1,6 @@
 import React from 'react'; 
 
 import { applyRouterMiddleware, browserHistory, Router, Route } from 'react-router';
-import { useScroll } from 'react-router-scroll';
 
 import Nav from '../Nav';
 
