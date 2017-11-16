@@ -8,17 +8,47 @@
         //text-transform: uppercase; 
     }
     form {
-        padding: 0 20px;
+        padding: 20px 20%;
+        $fs: 18px;
+        $pl: 20px;
         .name , .email {
+            font-size: $fs;
+            padding: 0 $pl;
             display: block;
             width: 100%;
             height: 50px;   
             margin-bottom: 20px;
+            box-sizing: border-box;
         }
         .message {
+            font-size: $fs;
+            padding: $pl $pl;
             display: block;
             width: 100%;
             height: 190px;   
+            box-sizing: border-box;
+        }
+        .submit-row {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 15px;
+            .captcha{
+                //width: 30px;
+                //height: 30px;
+            }
+            label {
+            
+            }
+            button {
+                width: 220px;
+                height: 55px;            
+                font-size: 18px;
+                color: #fff;
+                background: #333333;
+                text-transform: uppercase;
+                border: none;
+                border-radius: 0;
+            }
         }
     }
 }
