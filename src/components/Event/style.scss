@@ -4,9 +4,11 @@
     grid-column-gap: 50px;
     padding-bottom: 50px;
     .flyer {
-        width: 300px;
-        height: 380px;
-        background: #e6e6e6;
+        $w: 0.02;
+        width: $w;
+        height: $w * (11/17);
+        img { width: 100%; }
+        //background: #e6e6e6;
         border: none;
         //padding-right: 10%;
     }

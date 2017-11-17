@@ -1,7 +1,10 @@
 .gallery {
-    height: 600px;
+    background-image: url('../../assets/collage.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 586px;
     //display: flex;
-    background: #e6e6e6;
+    background-color: #e6e6e6;
     rect {
         //background: url('../../assets/waiting.jpg');
         //height: 100%;

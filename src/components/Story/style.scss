@@ -1,13 +1,26 @@
 .story {
-    height: 400px;
+    box-sizing: border-box;
+    //height: 400px;
     text-align: justify;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom:80px;
     padding-left: 250px;
     padding-right: 250px;
+
+    background-position: left top , right top;
+    background-size: 800px 10px , 800px 10px;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/hex-1.png'), url('../../assets/hex-2.png');
+    background-size: 30% 100%, 30% 100%;
+
     h1 { 
         text-align: center;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
         text-transform: uppercase;
+    }
+    p{
+        line-height: 28px;
+
+        max-width: 800px;   
     }
 }

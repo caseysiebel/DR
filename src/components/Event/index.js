@@ -1,13 +1,14 @@
 import React from 'react';
-
 import './style.scss';
+
+import flyer from '../../assets/afterburn-flyer.jpg';
 
 class Event extends React.Component {
     render() {
         return (
             <div className='event'>
                 <div className='flyer' >
-                    <img />
+                    <img src={ flyer } />
                 </div>
                 <div className='body'>
                     <h1>Name of Party</h1>
