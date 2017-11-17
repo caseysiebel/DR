@@ -4,7 +4,6 @@ import Tab from '../Tab';
 
 import './style.scss';
 
-import { Link } from 'react-router';
 
 class Nav extends React.Component {
     render() {
