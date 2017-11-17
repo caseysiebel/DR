@@ -6,7 +6,7 @@ class Tab extends React.Component {
     render() {
         return (
             <div className='tab'>
-                <Link to={ this.props.route }>{ this.props.display }</Link>
+                <div to={ this.props.route }>{ this.props.display }</div>
             </div>
         );
     } 
